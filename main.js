@@ -27,8 +27,8 @@ document.addEventListener('DOMContentLoaded', function() {
     
     function updateThemeIcons() {
         const isDark = body.classList.contains('dark-mode');
-        document.querySelector('#theme .fa-moon').style.display = isDark ? 'none' : 'inline-block';
-        document.querySelector('#theme .fa-sun').style.display = isDark ? 'inline-block' : 'none';
+        document.querySelector('#theme .fa-sun').style.display = isDark ? 'none' : 'inline-block';
+        document.querySelector('#theme .fa-moon').style.display = isDark ? 'inline-block' : 'none';
     }
     
     themeBtn.addEventListener('click', toggleTheme);
